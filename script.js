@@ -31,3 +31,13 @@ if(promoSlides.length > 0){
     },4000);
 
 }
+
+// ==========================
+// LOADING SCREEN
+// ==========================
+
+window.addEventListener("load", function () {
+    setTimeout(function () {
+        document.getElementById("loader").style.display = "none";
+    }, 2000);
+});
