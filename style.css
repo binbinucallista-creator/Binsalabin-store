@@ -533,3 +533,35 @@ transform:scale(1.1);
     font-weight:bold;
     font-size:13px;
 }
+.stats{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin:40px 20px;
+}
+
+.stat-box{
+    background:#121b2d;
+    border:1px solid #ffd70033;
+    border-radius:18px;
+    padding:20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-5px);
+    border-color:#ffd700;
+    box-shadow:0 0 20px rgba(255,215,0,.3);
+}
+
+.stat-box h3{
+    color:#ffd700;
+    font-size:24px;
+    margin-bottom:8px;
+}
+
+.stat-box p{
+    color:#ddd;
+    font-size:15px;
+}
