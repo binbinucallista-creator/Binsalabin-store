@@ -566,3 +566,41 @@ transform:scale(1.1);
     color:#ddd;
     font-size:15px;
 }
+/* Floating WhatsApp */
+
+.floating-wa{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+color:white;
+box-shadow:0 8px 25px rgba(37,211,102,.45);
+z-index:9999;
+animation:waPulse 2s infinite;
+transition:.3s;
+}
+
+.floating-wa:hover{
+transform:scale(1.1);
+}
+
+@keyframes waPulse{
+0%{
+transform:scale(1);
+}
+50%{
+transform:scale(1.08);
+box-shadow:0 0 25px rgba(37,211,102,.7);
+}
+100%{
+transform:scale(1);
+}
+}
