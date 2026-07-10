@@ -604,3 +604,60 @@ box-shadow:0 0 25px rgba(37,211,102,.7);
 transform:scale(1);
 }
 }
+/* ========================= */
+/* PROMO BANNER */
+/* ========================= */
+
+.promo-banner{
+    margin:20px;
+    border-radius:25px;
+    overflow:hidden;
+    background:linear-gradient(135deg,#FFD700,#FFB300);
+    box-shadow:0 10px 30px rgba(255,215,0,.25);
+    text-align:center;
+    padding:35px 20px;
+}
+
+.promo-slide h2{
+    color:#111;
+    font-size:28px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.promo-slide p{
+    color:#222;
+    font-size:17px;
+    margin-bottom:20px;
+}
+
+.promo-slide .btn{
+    display:inline-block;
+    background:#121b2d;
+    color:#FFD700;
+    padding:12px 28px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.promo-slide .btn:hover{
+    transform:scale(1.05);
+    background:#000;
+}
+
+.promo-slide{
+    animation:fadeBanner 1s ease;
+}
+
+@keyframes fadeBanner{
+    from{
+        opacity:0;
+        transform:translateY(15px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
