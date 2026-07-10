@@ -141,3 +141,46 @@ font-size:15px;
 }
 
 }
+/* ===== NAVBAR PREMIUM ===== */
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:15px 25px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(8,17,31,.85);
+backdrop-filter:blur(12px);
+z-index:999;
+box-shadow:0 3px 15px rgba(0,0,0,.3);
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#FFD700;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.navbar a:hover{
+color:#FFD700;
+}
+
+.hero{
+margin-top:70px;
+}
