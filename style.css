@@ -49,19 +49,20 @@ margin-bottom:20px;
 }
 
 .btn{
-display:inline-block;
-padding:14px 28px;
-background:#25D366;
-color:#fff;
-text-decoration:none;
-border-radius:30px;
-font-weight:bold;
-transition:.3s;
+    display:inline-block;
+    margin-top:25px;
+    background:#2ED573;
+    color:white;
+    padding:16px 40px;
+    border-radius:50px;
+    font-weight:bold;
+    text-decoration:none;
+    transition:.3s;
 }
 
 .btn:hover{
-background:#1ea952;
-transform:scale(1.05);
+    transform:scale(1.05);
+    box-shadow:0 0 25px rgba(46,213,115,.5);
 }
 
 .container{
@@ -542,17 +543,17 @@ transform:scale(1.1);
 
 .stat-box{
     background:#121b2d;
-    border:1px solid #ffd70033;
-    border-radius:18px;
-    padding:20px;
+    border:2px solid rgba(255,215,0,.15);
+    border-radius:20px;
+    padding:25px 15px;
     text-align:center;
-    transition:.3s;
+    transition:.35s;
 }
 
 .stat-box:hover{
-    transform:translateY(-5px);
-    border-color:#ffd700;
-    box-shadow:0 0 20px rgba(255,215,0,.3);
+    transform:translateY(-8px);
+    border-color:#FFD700;
+    box-shadow:0 0 25px rgba(255,215,0,.35);
 }
 
 .stat-box h3{
